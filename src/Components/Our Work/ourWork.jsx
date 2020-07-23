@@ -24,7 +24,7 @@ export default function OurWork() {
           Content2="Best Place for Hair and Beauty"
           Title2="F7 Saloon"
           Logo2={f7}
-          web2="http://www.f7salon.in/"
+          Web2="http://www.f7salon.in/"
 />
         
 
