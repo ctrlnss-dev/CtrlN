@@ -1,0 +1,53 @@
+.title {
+    font-family: "Rancho";
+    color:#a6dcef;
+    padding-top: 12vh;
+    font-size: 20vh;
+}
+.sub_title{
+    font-family: "Caveat";
+    color:white;
+    font-size: 5vh;
+}
+.wrapper{
+   transform: scale(.5);
+}
+
+.cls-1{
+    stroke:"fff";
+    stroke-dasharray: 1800;
+    opacity: 10;
+    animation: animate 4s cubic-bezier(0,0.23,1,.1);
+    stroke: none;
+}
+
+@keyframes animate {
+    0%{
+        opacity: 0;
+        fill:none;
+        stroke-dashoffset: 1800;
+    }
+    30%{
+        opacity: 5;
+        fill:none;
+        stroke-dashoffset: 1800;
+    }
+   
+    
+    100%{
+        fill:#a6dcef;
+        stroke:none;
+
+    }
+}
+
+@media  screen and (max-width:425px){
+    .sub_title{
+        font-size: 8vw;
+    }
+    .wrapper{
+        padding-top: 50%;
+        transform: scale(.5);
+     }
+     
+}

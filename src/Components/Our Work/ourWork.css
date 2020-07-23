@@ -1,0 +1,52 @@
+.headingC{
+    font-family: 'Rancho';
+    color:white;
+    /* padding-top: 20vw; */
+    font-size: 13vw;
+}
+
+.CardC-section{
+    width:100%;
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-evenly;
+}
+.ourWork-container{
+    height: 100vh;
+    background: #07031a
+}
+
+@media screen and (max-width:768px){
+    .CardC-section{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .card-container{
+        padding-top:70px
+    }
+}
+
+
+@media screen and (max-width:425px){
+    .headingC{
+        font-size: 13vw;
+    }
+   
+}
+@media screen and (max-width:425px){
+    .headingC{
+        font-size: 13vw;
+        /* transform: translate(0,-4rem); */
+    }
+    .card-container{
+        padding-top:100px
+    }
+   
+}
+
+@media screen and (max-height:620px){
+    .ourWork-container{
+        height: 150vh;
+    }
+}
+
