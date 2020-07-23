@@ -30,7 +30,7 @@ function Cardc({Logo1 ,Logo2 , Title1 , Content1 , Web1 , Title2 , Content2 , We
                 <h1 className="card-post__title1">{Title2}</h1>
                 <span className="card-post__date1">{Content2}</span>
                 <br/>
-                <a href={Web1} className="card-post__cta">Open Website</a>
+                <a href={Web2} className="card-post__cta">Open Website</a>
             </div>
         </div>
         </div>
