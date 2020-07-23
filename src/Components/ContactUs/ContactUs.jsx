@@ -24,12 +24,12 @@ const ContactUs = (props) => (
               <div style={{display:"flex" , flexDirection:"row" }}>
                   <GrMail  />
                 
-                <div className="txt" >10lokeshnani@gmail.com</div>
+                <div className="txt" >ctrlnss@gmail.com</div>
               </div>
               <br/>
               <div style={{display:"flex" , flexDirection:"row" }}>
                 <MdLocalPhone />
-                <div className="txt">9949499500</div>
+                <div className="txt">9394740474</div>
               </div>
             </IconContext.Provider>
           </Card.Body>
