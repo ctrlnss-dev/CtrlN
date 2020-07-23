@@ -21,11 +21,11 @@ export default function OurWork() {
           Content1="Film and media creation"
           Title1="U5A"
           Logo1={U5A}
-          Web1="#"
+          Web1="http://www.u5a.in/"
           Content2="Best Place for Hair and Beauty"
           Title2="F7 Saloon"
           Logo2={f7}
-          web2="#"
+          web2="http://www.f7salon.in/"
 />
         
 
