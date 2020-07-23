@@ -10,7 +10,6 @@ import Cardc from '../cards/cardc';
 export default function OurWork() {
 
   return (
-    // <div style={{ height: "100vh", background: "#07031a" }}>
 <div className="ourWork-container">
 
     <Zoom>
