@@ -61,6 +61,20 @@ const LayoutComponent = () => {
                           <Nav.Link  style={{fontFamily:'Rancho'}}>
                         <Link
                           activeClass="active"
+                          to="section1"
+                          spy={true}
+                          smooth={true}
+                          offset={-70}
+                          duration={200}
+                        >
+                          HOME
+                        </Link>
+                        </Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item>
+                          <Nav.Link  style={{fontFamily:'Rancho'}}>
+                        <Link
+                          activeClass="active"
                           to="section2"
                           spy={true}
                           smooth={true}
@@ -118,6 +132,20 @@ const LayoutComponent = () => {
                       id="responsive-navbar-nav"
                       className="justify-content-end"
                     >
+                      <Nav.Item>
+                          <Nav.Link  style={{fontFamily:'Rancho'}}>
+                        <Link
+                          activeClass="active"
+                          to="section1"
+                          spy={true}
+                          smooth={true}
+                          offset={-70}
+                          duration={200}
+                        >
+                          HOME
+                        </Link>
+                        </Nav.Link>
+                      </Nav.Item>
                       <Nav.Item>
                           <Nav.Link  style={{fontFamily:'Rancho'}}>
                         <Link
