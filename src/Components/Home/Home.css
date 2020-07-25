@@ -1,13 +1,26 @@
 .title {
     font-family: "Rancho";
     color:#a6dcef;
-    padding-top: 12vh;
+    padding-top: 10vh;
     font-size: 20vh;
 }
-.sub_title{
+.wrapper1{
+    transform: translate(0,-6vw);
+}
+.sub_title,
+.sub_anime{
     font-family: "Caveat";
+    /* transform: translate(0,-10rem); */
+}
+.sub_title{
+    font-size: 8vh;
+    color:#07bdff;
+    transform: translate(0,-4vw);
+
+}
+.sub_anime{
     color:white;
-    font-size: 5vh;
+    font-size: 3vh;
 }
 .wrapper{
    transform: scale(.5);
@@ -49,5 +62,7 @@
         padding-top: 50%;
         transform: scale(.5);
      }
-     
+     .wrapper1{
+        transform: translate(0,-19vw);
+    }
 }

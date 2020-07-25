@@ -35,6 +35,8 @@ function Cardc({Logo1 ,Logo2 , Title1 , Content1 , Web1 , Title2 , Content2 , We
         </div>
         </div>
         </Fade>
+        
+        
         </div>
 
     );

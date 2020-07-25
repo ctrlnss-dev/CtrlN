@@ -6,7 +6,9 @@
   padding-top: 0;
   justify-content: space-evenly;
 }
-
+.card-post1{
+  height: 1vh;
+}
 .card-post,
 .card-post1 {
   height: 15rem;
