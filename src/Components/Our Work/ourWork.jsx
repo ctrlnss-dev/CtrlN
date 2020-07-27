@@ -22,7 +22,7 @@ export default function OurWork() {
           Logo1={U5A}
           Web1="http://www.u5a.in/"
           Content2="Best Place for Hair and Beauty"
-          Title2="F7 Saloon"
+          Title2="F7 Salon"
           Logo2={f7}
           Web2="http://www.f7salon.in/"
 />

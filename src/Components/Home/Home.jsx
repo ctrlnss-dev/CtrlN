@@ -7,7 +7,7 @@ import { useDencrypt } from "use-dencrypt-effect";
  
 import "./Home.css";
 
-const values = [ "Custom Build App For your Bussiness", "Web Development", "UI/UX Developement"];
+const values = [ "Custom Built Apps for your Business", "Website Development", "UI/UX Development"];
 function Home(props) {
     const { result, dencrypt } = useDencrypt();
  
