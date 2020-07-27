@@ -34,10 +34,10 @@ const ContactUs = (props) => (
                 </div>
               </a>
               <br />
-              <a href="tel:9394740474" style={{color:"white"}}>
+              <a href="tel:+91 9394740474" style={{color:"white"}}>
                 <div style={{ display: "flex", flexDirection: "row" }}>
                   <MdPhone />
-                  <div className="txt">9394740474</div>
+                  <div className="txt">+91 9394740474</div>
                 </div>
               </a>
             </IconContext.Provider>
