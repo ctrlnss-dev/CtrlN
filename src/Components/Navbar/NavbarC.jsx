@@ -2,7 +2,7 @@ import React from "react";
 
 import { Navbar, NavDropdown, Nav, Button } from "react-bootstrap";
 import { Typography } from "@material-ui/core";
-import {Link  } from 'react-scroll'
+import { Link } from "react-scroll";
 
 import Home from "../Home/Home";
 import OurWork from "../Our Work/ourWork";
@@ -13,38 +13,35 @@ import "./Navbar.css";
 export default function ButtonAppBar() {
   return (
     <div>
-      <Navbar expand="lg" variant="dark" style={{background:"#07031a" }}>
+      <Navbar expand="lg" variant="dark" style={{ background: "#07031a" }}>
         <Navbar.Brand
           href="#section1"
-          style={{ color: "#a6dcef "}}
+          style={{ color: "#a6dcef " }}
           className="mr-auto"
         >
-          <Typography variant="h3" style={{fontFamily:'Rancho'}}>CtrlN</Typography>
+          <Typography variant="h3" style={{ fontFamily: "Rancho" }}>
+            CtrlN
+          </Typography>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse className="justify-content-end" >
-          <Nav >
-            <Nav.Link href="#section1" style={{fontFamily:'Rancho'}}>
+        <Navbar.Collapse className="justify-content-end">
+          <Nav>
+            <Nav.Link href="#section1" style={{ fontFamily: "Rancho" }}>
               Home
             </Nav.Link>
-            <Nav.Link href="#section2" style={{fontFamily:'Rancho'}}
-            >
-             
+            <Nav.Link href="#section2" style={{ fontFamily: "Rancho" }}>
               Our Work
             </Nav.Link>
-            <Nav.Link href="#section3" style={{fontFamily:'Rancho'}}>
-              Contact Us 
+            <Nav.Link href="#section3" style={{ fontFamily: "Rancho" }}>
+              Contact Us
             </Nav.Link>
-            {/* <Link activeClass="active" className="test1" to="section1" spy={true} smooth={true} duration={500} >Test 1</Link>
-            <Link activeClass="active" className="test2" to="section2" spy={true} smooth={true} duration={500}>Test 2</Link>
-            <Link activeClass="active" className="test3" to="section3" spy={true} smooth={true} duration={500} >Test 3</Link> */}
           </Nav>
         </Navbar.Collapse>
       </Navbar>
 
-      <Home id="section1"/>
-      <OurWork id="section2"/>
-      <ContactUs id="section3"/>
+      <Home id="section1" />
+      <OurWork id="section2" />
+      <ContactUs id="section3" />
     </div>
   );
 }

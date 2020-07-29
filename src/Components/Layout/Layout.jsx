@@ -22,7 +22,6 @@ const LayoutComponent = () => {
       setScrollTop(temp);
     };
     window.addEventListener("scroll", onScroll);
-    console.log(show, scrollTop);
     return () => window.removeEventListener("scroll", onScroll);
   });
 

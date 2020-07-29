@@ -11,18 +11,32 @@
     padding-top: 50px;
     justify-content: space-evenly;
 }
+.cardc{
+    width: 18em;
+    height: 18em;
+}
+.containerC{
+    padding: 10px;
+}
 .ourWork-container{
     height: 100vh;
     background: #07031a
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:650px){
     .CardC-section{
         flex-direction: column;
-        justify-content: space-evenly;
+        /* justify-content: space-evenly; */
+        padding: 10px;
+
     }
-    .card-container{
-        padding-top:70px
+    .cardc{
+        margin: auto;
+        width: 18em;
+    }
+    .CardC-container{
+        width: 18em;
+        margin: auto;
     }
 }
 
