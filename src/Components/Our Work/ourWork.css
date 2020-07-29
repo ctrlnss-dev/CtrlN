@@ -32,11 +32,13 @@
     }
     .cardc{
         margin: auto;
-        width: 18em;
+        width: 15em;
+        height: 15em;
     }
     .CardC-container{
-        width: 18em;
+        width: 15em;
         margin: auto;
+        height: 15em;
     }
 }
 
