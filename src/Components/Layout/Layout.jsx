@@ -70,7 +70,7 @@ const LayoutComponent = () => {
                         </Link>
                         </Nav.Link>
                       </Nav.Item>
-                      <Nav.Item>
+                      {/* <Nav.Item>
                           <Nav.Link  style={{fontFamily:'Rancho'}}>
                         <Link
                           activeClass="active"
@@ -83,7 +83,7 @@ const LayoutComponent = () => {
                           OUR WORK
                         </Link>
                         </Nav.Link>
-                      </Nav.Item>
+                      </Nav.Item> */}
 
                       <Nav.Item>
                       <Nav.Link  style={{fontFamily:'Rancho'}}>
@@ -145,7 +145,7 @@ const LayoutComponent = () => {
                         </Link>
                         </Nav.Link>
                       </Nav.Item>
-                      <Nav.Item>
+                      {/* <Nav.Item>
                           <Nav.Link  style={{fontFamily:'Rancho'}}>
                         <Link
                           activeClass="active"
@@ -158,7 +158,7 @@ const LayoutComponent = () => {
                           OUR WORK
                         </Link>
                         </Nav.Link>
-                      </Nav.Item>
+                      </Nav.Item> */}
 
                       <Nav.Item>
                       <Nav.Link  style={{fontFamily:'Rancho'}}>
@@ -185,9 +185,9 @@ const LayoutComponent = () => {
       <div id="section1">
         <Home />
       </div>
-      <div id="section2">
+      {/* <div id="section2">
         <OurWork />
-      </div>
+      </div> */}
       <div id="section3">
         <ContactUs />
       </div>
